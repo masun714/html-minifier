@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>replace title</title>
+    <link rel="stylesheet" href="css/mobile/mobile.css" type="text/css" />
+    <link rel="stylesheet" href="css/mobile/menu.css" type="text/css" />
+    <link rel="stylesheet" href="css/mobile/main.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/lib/slideout.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+</head>
+<body>
+  
+    <nav id="menu" class="menu">
+    </nav>
+  
+  
+    <main id="panel" class="panel">
+      <header>
+          <div class="pullTab" onclick="Racing.SlideOut.toggle()"></div>
+          <div class="matchTitle"></div>
+      </header>
+      
+      <div class="standardTime"></div>
+      
+      
+      <div class="controlMenu">
+        <div class="sectionControl">
+          <div class="arrangeList">排位表</div>
+          <div class="speedList">速度表</div>
+        </div>
+        <div class="horseListControl"></div>
+        <div class="horseTableHeader">
+            <div class="">編號</div>
+            <div class="">馬名</div>
+            <div class="">歲數</div>
+            <div class="">騎師</div>
+            <div class="">檔位</div>
+            <div class="">練</div>
+        </div>
+  
+        <div class="horseTableList grid"></div>
+      </div>
+      
+    </main>
+  
+    <div class="loadingCTN"><div class="heightCheck"></div><div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div></div></div>
+  
+</body>
+    <script type="text/javascript" src="js/dataFilter.js"></script>
+    <script type="text/javascript" src="js/function.js"></script>
+    <script type="text/javascript" src="js/mobile_main.js"></script>
+</html>
