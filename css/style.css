@@ -1,0 +1,125 @@
+body {
+  padding: 50px;
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+  font-family:Microsoft JhengHei,Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  background: #a7a7a7;
+}
+
+a {
+  color: #00B7FF;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #ff9234;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    margin: auto;
+    font-size: 20px;
+    padding: 5px;
+    box-shadow: 1px -3px 13px;
+    -webkit-transition: top 0.3s;
+    transition: top 0.3s;
+}
+
+header div {
+  float: left;
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+}
+
+header div.on {
+  color: #fff;
+}
+
+.currentDate {
+  padding-left: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.match {
+  padding: 5px 0;
+}
+
+#mydiv {
+  font-size: 16px;
+  left: 1200px;
+  position: fixed;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 25px 6px 10px 5px;;
+}
+
+#mydiv div{
+  margin-top: 5px;
+}
+
+.all.on,
+.filterDistance.on,
+.filterLocation.on,
+.sortsection.on{
+  background-color: #ff9234;
+  color: #fff;
+}
+
+.match div {
+  display: inline-block;
+    padding: 5px 15px 5px 15px;
+    background: #ff9234;
+    color: #fff;
+    font-size: 20px;
+}
+
+.horsecard {
+  background-color: #887e78;
+  border: 2px solid #000;
+  margin-bottom: 10px;
+  min-width: 767px;
+}
+
+.horsecard .info {
+  width: 100%;
+  display: table;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.horsecard .info div,
+.horsecard .info img{
+  max-height: 50px;
+  display: table-cell;
+}
+
+.horsecard .info div:first-child {
+  width: 13%;
+}
+
+.recordBoard {
+  width: 99%;
+  background-color: #555;
+  margin:5px;
+  display: inline-flex;
+}
+
+.recordBoard div {
+  padding: 5px;
+}
+
+.timerecord {
+  color: #efefef;
+  font-size: 16px;
+}
+
+.compareList{
+  display: none;
+}
+
+.tag {
+  font-weight: bold;
+}
