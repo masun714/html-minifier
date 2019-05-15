@@ -1,162 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>testing 123</title>
-  </head>
-  <body>
-    <table>
-      <tbody>
-        <tr>
-          <td>1</td>
-        </tr>
-        <tr>
-          <td>2</td>
-        </tr>
-        <tr>
-          <td>3</td>
-        </tr>
-        <tr>
-          <td>4</td>
-        </tr>
-        <tr>
-          <td>5</td>
-        </tr>
-        <tr>
-          <td>6</td>
-        </tr>
-        <tr>
-          <td>7</td>
-        </tr>
-        <tr>
-          <td>8</td>
-        </tr>
-        <tr>
-          <td>9</td>
-        </tr>
-        <tr>
-          <td>10</td>
-        </tr>
-        <tr>
-          <td>11</td>
-        </tr>
-        <tr>
-          <td>12</td>
-        </tr>
-        <tr>
-          <td>13</td>
-        </tr>
-        <tr>
-          <td>14</td>
-        </tr>
-        <tr>
-          <td>15</td>
-        </tr>
-        <tr>
-          <td>16</td>
-        </tr>
-        <tr>
-          <td>17</td>
-        </tr>
-        <tr>
-          <td>18</td>
-        </tr>
-        <tr>
-          <td>19</td>
-        </tr>
-        <tr>
-          <td>20</td>
-        </tr>
-        <tr>
-          <td>21</td>
-        </tr>
-        <tr>
-          <td>22</td>
-        </tr>
-        <tr>
-          <td>23</td>
-        </tr>
-        <tr>
-          <td>24</td>
-        </tr>
-        <tr>
-          <td>25</td>
-        </tr>
-        <tr>
-          <td>26</td>
-        </tr>
-        <tr>
-          <td>27</td>
-        </tr>
-        <tr>
-          <td>28</td>
-        </tr>
-        <tr>
-          <td>29</td>
-        </tr>
-        <tr>
-          <td>30</td>
-        </tr>
-        <tr>
-          <td>31</td>
-        </tr>
-        <tr>
-          <td>32</td>
-        </tr>
-        <tr>
-          <td>33</td>
-        </tr>
-        <tr>
-          <td>34</td>
-        </tr>
-        <tr>
-          <td>35</td>
-        </tr>
-        <tr>
-          <td>36</td>
-        </tr>
-        <tr>
-          <td>37</td>
-        </tr>
-        <tr>
-          <td>38</td>
-        </tr>
-        <tr>
-          <td>39</td>
-        </tr>
-        <tr>
-          <td>40</td>
-        </tr>
-        <tr>
-          <td>41</td>
-        </tr>
-        <tr>
-          <td>42</td>
-        </tr>
-        <tr>
-          <td>43</td>
-        </tr>
-        <tr>
-          <td>44</td>
-        </tr>
-        <tr>
-          <td>45</td>
-        </tr>
-        <tr>
-          <td>46</td>
-        </tr>
-        <tr>
-          <td>47</td>
-        </tr>
-        <tr>
-          <td>48</td>
-        </tr>
-        <tr>
-          <td>49</td>
-        </tr>
-        <tr>
-          <td>50</td>
-        </tr>
-      </tbody>
-    </table>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>replace title</title>
+    <link rel="stylesheet" href="css/mobile/mobile.css" type="text/css" />
+    <link rel="stylesheet" href="css/mobile/menu.css" type="text/css" />
+    <link rel="stylesheet" href="css/mobile/main.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/lib/slideout.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+</head>
+<body>
+  
+    <nav id="menu" class="menu">
+    </nav>
+  
+  
+    <main id="panel" class="panel">
+      <header>
+          <div class="pullTab" onclick="Racing.SlideOut.toggle()"></div>
+          <div class="matchTitle"></div>
+      </header>
+      
+      <div class="standardTime"></div>
+      
+      
+      <div class="controlMenu">
+        <div class="sectionControl">
+          <div class="arrangeList">排位表</div>
+          <div class="speedList">速度表</div>
+        </div>
+        <div class="horseListControl"></div>
+        <div class="horseTableHeader">
+            <div class="">編號</div>
+            <div class="">馬名</div>
+            <div class="">歲數</div>
+            <div class="">騎師</div>
+            <div class="">檔位</div>
+            <div class="">練</div>
+        </div>
+  
+        <div class="horseTableList grid"></div>
+      </div>
+      
+    </main>
+  
+    <div class="loadingCTN"><div class="heightCheck"></div><div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div></div></div>
+  
+</body>
+    <script type="text/javascript" src="js/dataFilter.js"></script>
+    <script type="text/javascript" src="js/function.js"></script>
+    <script type="text/javascript" src="js/mobile_main.js"></script>
 </html>
